@@ -1,0 +1,27 @@
+{
+  "name": "auth0-login-flow",
+  "version": "1.0.0",
+  "description": "MLH Global Hack Week - Set up your first Auth0 log-in flow with Express & express-openid-connect",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "auth0",
+    "express",
+    "oidc",
+    "mlh",
+    "hackathon",
+    "authentication"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-openid-connect": "^2.17.1"
+  }
+}
